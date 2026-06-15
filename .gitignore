@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Données et modèles (versionnés via DVC ou Hub, pas Git)
+data/raw/
+data/processed/
+models/checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# HuggingFace cache
+.cache/
+.huggingface/
+
+# Expériences (sauf le journal lui-même)
+experiments/runs/
+experiments/wandb/
+experiments/logs/
+!experiments/journal.jsonl
+
+# Tests et coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Secrets
+.env
+*.key
+config_local.yaml
+
+# Outputs
+*.log
+*.tmp
+
+# Mais on garde les .gitkeep pour conserver l'arbre
+!**/.gitkeep
