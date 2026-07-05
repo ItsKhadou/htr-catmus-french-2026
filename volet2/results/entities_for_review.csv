@@ -1,0 +1,22 @@
+line_id,entity_text,entity_type,confidence_hint,context,keep,corrected_type
+synth_0000,Charles de France,PER,0.6209786701199439,Le roy Charles de France assembla ses barons a Paris,True,PER
+synth_0000,Paris,LOC,0.6209786701199439,Le roy Charles de France assembla ses barons a Paris,True,LOC
+synth_0002,Messire Jean seigneur de Bourgogne,PER,0.49205099786103756,Messire Jean seigneur de Bourgogne vint en la court,True,PER
+synth_0004,Paris,LOC,0.7546578569284932,Le prevost de Paris fist son commandement,True,LOC
+synth_0005,Reims,LOC,0.41214485163452347,En la cite de Reims fu couronne le roy,True,LOC
+synth_0006,Guillaume duc de Normandie,PER,0.8911411580722488,Guillaume duc de Normandie estoit moult vaillant,True,PER
+synth_0007,Chartres benist les chevaliers,MISC,0.5072767306521894,L'evesque de Chartres benist les chevaliers,True,MISC
+synth_0008,Rouen,LOC,0.5795029233461273,En la ville de Rouen fu tenue une assemblee,True,LOC
+synth_0009,duc d'Aquitaine,PER,0.6548475609988483,Le duc d'Aquitaine avec grant compagnie de gens,True,PER
+synth_0010,Champaigne fu tresdolente,PER,0.7609932078862038,La contesse de Champaigne fu tresdolente,True,PER
+synth_0011,Philippe le Bel de France,PER,0.5723653426357788,Au temps du roy Philippe le Bel de France,True,PER
+synth_0012,Bourgogne,LOC,0.6690812906880512,En Bourgogne et en Flandres furent grans troubles,True,LOC
+synth_0012,Flandres,LOC,0.6690812906880512,En Bourgogne et en Flandres furent grans troubles,True,LOC
+synth_0013,sire de Coucy,PER,0.5178075314734323,Le sire de Coucy tint conseil avec ses gens,True,PER
+synth_0014,Saint Denis fu,PER,0.7495245956286051,En l'abbaie de Saint Denis fu enterre le roy,True,PER
+synth_0015,Guyenne,LOC,0.7584514626218486,Les Anglois envahirent la terre de Guyenne,True,LOC
+synth_0016,Bordeaux,LOC,0.4383804398613149,En la ville de Bordeaux fu grant joye,True,LOC
+synth_0017,de France,LOC,0.96972289951399,Le connestable de France mena l'armee,True,LOC
+synth_0018,Poitou,LOC,0.5797221238122887,En Poitou et en Berry furent moult batailles,True,LOC
+synth_0018,Berry,LOC,0.5797221238122887,En Poitou et en Berry furent moult batailles,True,LOC
+synth_0019,Blanche de Castille regna,PER,0.8036974856421726,La royne Blanche de Castille regna sagement,True,PER

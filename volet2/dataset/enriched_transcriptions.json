@@ -1,0 +1,1214 @@
+{
+  "schema_version": "2.0.0",
+  "generated_at": "2026-07-05T21:04:27.924516",
+  "source_volet1": {
+    "test_set_sha256": "synthetic_example",
+    "model": {
+      "base": "microsoft/trocr-base-handwritten",
+      "fine_tuning": "LoRA",
+      "lora_r": 8
+    },
+    "metrics": {
+      "cer_test": 0.08,
+      "wer_test": 0.15
+    }
+  },
+  "volet2_pipeline": {
+    "pos_ner_model": "spacy/fr_core_news_lg",
+    "topic_model": "BERTopic + paraphrase-multilingual-MiniLM-L12-v2",
+    "n_topics_found": 4,
+    "n_entities_total": 21,
+    "n_unique_entities": 20
+  },
+  "n_lines": 20,
+  "lines": [
+    {
+      "line_id": "synth_0000",
+      "text_original": "Le roy Charles de France assembla ses barons a Paris",
+      "text_clean": "Le roy Charles de France assembla ses barons a Paris",
+      "text_normalized": "Le roy Charles de France assembla ses barons a Paris",
+      "confidence": 0.6209786701199439,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_0",
+      "linguistic_annotations": {
+        "tokens": [
+          "Le",
+          "roy",
+          "Charles",
+          "de",
+          "France",
+          "assembla",
+          "ses",
+          "barons",
+          "a",
+          "Paris"
+        ],
+        "pos_tags": [
+          "DET",
+          "PROPN",
+          "PROPN",
+          "ADP",
+          "PROPN",
+          "VERB",
+          "DET",
+          "NOUN",
+          "AUX",
+          "PROPN"
+        ],
+        "lemmas": [
+          "le",
+          "roy",
+          "Charles",
+          "de",
+          "France",
+          "assembler",
+          "son",
+          "baron",
+          "avoir",
+          "Paris"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Charles de France",
+          "type": "PER",
+          "start": 7,
+          "end": 24
+        },
+        {
+          "text": "Paris",
+          "type": "LOC",
+          "start": 47,
+          "end": 52
+        }
+      ],
+      "topic": 0
+    },
+    {
+      "line_id": "synth_0001",
+      "text_original": "En l'an de grace mil trois cent quarante et deux",
+      "text_clean": "En l'an de grace mil trois cent quarante et deux",
+      "text_normalized": "En l'an de grace mil trois cent quarante et deux",
+      "confidence": 0.831876425668729,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_1",
+      "linguistic_annotations": {
+        "tokens": [
+          "En",
+          "l'",
+          "an",
+          "de",
+          "grace",
+          "mil",
+          "trois",
+          "cent",
+          "quarante",
+          "et",
+          "deux"
+        ],
+        "pos_tags": [
+          "ADP",
+          "DET",
+          "NOUN",
+          "ADP",
+          "NOUN",
+          "ADJ",
+          "NUM",
+          "NUM",
+          "NUM",
+          "CCONJ",
+          "NUM"
+        ],
+        "lemmas": [
+          "en",
+          "le",
+          "an",
+          "de",
+          "grace",
+          "mil",
+          "trois",
+          "cent",
+          "quarante",
+          "et",
+          "deux"
+        ]
+      },
+      "named_entities": [],
+      "topic": 2
+    },
+    {
+      "line_id": "synth_0002",
+      "text_original": "Messire Jean seigneur de Bourgogne vint en la court",
+      "text_clean": "Messire Jean seigneur de Bourgogne vint en la court",
+      "text_normalized": "Messire Jean seigneur de Bourgogne vint en la court",
+      "confidence": 0.49205099786103756,
+      "needs_review": true,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_2",
+      "linguistic_annotations": {
+        "tokens": [
+          "Messire",
+          "Jean",
+          "seigneur",
+          "de",
+          "Bourgogne",
+          "vint",
+          "en",
+          "la",
+          "court"
+        ],
+        "pos_tags": [
+          "NOUN",
+          "PROPN",
+          "NOUN",
+          "ADP",
+          "PROPN",
+          "VERB",
+          "ADP",
+          "DET",
+          "ADJ"
+        ],
+        "lemmas": [
+          "messire",
+          "Jean",
+          "seigneur",
+          "de",
+          "Bourgogne",
+          "venir",
+          "en",
+          "le",
+          "court"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Messire Jean seigneur de Bourgogne",
+          "type": "PER",
+          "start": 0,
+          "end": 34
+        }
+      ],
+      "topic": 3
+    },
+    {
+      "line_id": "synth_0003",
+      "text_original": "La bataille fu grande et cruelle en la vallee",
+      "text_clean": "La bataille fu grande et cruelle en la vallee",
+      "text_normalized": "La bataille fu grande et cruelle en la vallee",
+      "confidence": 0.4342693311792377,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_0",
+      "linguistic_annotations": {
+        "tokens": [
+          "La",
+          "bataille",
+          "fu",
+          "grande",
+          "et",
+          "cruelle",
+          "en",
+          "la",
+          "vallee"
+        ],
+        "pos_tags": [
+          "DET",
+          "NOUN",
+          "DET",
+          "ADJ",
+          "CCONJ",
+          "ADJ",
+          "ADP",
+          "DET",
+          "NOUN"
+        ],
+        "lemmas": [
+          "le",
+          "bataille",
+          "fu",
+          "grand",
+          "et",
+          "cruel",
+          "en",
+          "le",
+          "vallee"
+        ]
+      },
+      "named_entities": [],
+      "topic": 1
+    },
+    {
+      "line_id": "synth_0004",
+      "text_original": "Le prevost de Paris fist son commandement",
+      "text_clean": "Le prevost de Paris fist son commandement",
+      "text_normalized": "Le prevost de Paris fist son commandement",
+      "confidence": 0.7546578569284932,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_1",
+      "linguistic_annotations": {
+        "tokens": [
+          "Le",
+          "prevost",
+          "de",
+          "Paris",
+          "fist",
+          "son",
+          "commandement"
+        ],
+        "pos_tags": [
+          "DET",
+          "NOUN",
+          "ADP",
+          "PROPN",
+          "VERB",
+          "DET",
+          "NOUN"
+        ],
+        "lemmas": [
+          "le",
+          "prevost",
+          "de",
+          "Paris",
+          "fist",
+          "son",
+          "commandement"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Paris",
+          "type": "LOC",
+          "start": 14,
+          "end": 19
+        }
+      ],
+      "topic": 0
+    },
+    {
+      "line_id": "synth_0005",
+      "text_original": "En la cite de Reims fu couronne le roy",
+      "text_clean": "En la cite de Reims fu couronne le roy",
+      "text_normalized": "En la cite de Reims fu couronne le roy",
+      "confidence": 0.41214485163452347,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_2",
+      "linguistic_annotations": {
+        "tokens": [
+          "En",
+          "la",
+          "cite",
+          "de",
+          "Reims",
+          "fu",
+          "couronne",
+          "le",
+          "roy"
+        ],
+        "pos_tags": [
+          "ADP",
+          "DET",
+          "VERB",
+          "ADP",
+          "PROPN",
+          "PRON",
+          "VERB",
+          "DET",
+          "PROPN"
+        ],
+        "lemmas": [
+          "en",
+          "le",
+          "citer",
+          "de",
+          "Reims",
+          "fu",
+          "couronne",
+          "le",
+          "roy"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Reims",
+          "type": "LOC",
+          "start": 14,
+          "end": 19
+        }
+      ],
+      "topic": 2
+    },
+    {
+      "line_id": "synth_0006",
+      "text_original": "Guillaume duc de Normandie estoit moult vaillant",
+      "text_clean": "Guillaume duc de Normandie estoit moult vaillant",
+      "text_normalized": "Guillaume duc de Normandie estoit moult vaillant",
+      "confidence": 0.8911411580722488,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_0",
+      "linguistic_annotations": {
+        "tokens": [
+          "Guillaume",
+          "duc",
+          "de",
+          "Normandie",
+          "estoit",
+          "moult",
+          "vaillant"
+        ],
+        "pos_tags": [
+          "PROPN",
+          "NOUN",
+          "ADP",
+          "PROPN",
+          "ADJ",
+          "ADP",
+          "ADJ"
+        ],
+        "lemmas": [
+          "Guillaume",
+          "duc",
+          "de",
+          "Normandie",
+          "estoit",
+          "moult",
+          "vaillant"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Guillaume duc de Normandie",
+          "type": "PER",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "topic": -1
+    },
+    {
+      "line_id": "synth_0007",
+      "text_original": "L'evesque de Chartres benist les chevaliers",
+      "text_clean": "L'evesque de Chartres benist les chevaliers",
+      "text_normalized": "L'evesque de Chartres benist les chevaliers",
+      "confidence": 0.5072767306521894,
+      "needs_review": true,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_1",
+      "linguistic_annotations": {
+        "tokens": [
+          "L'",
+          "evesque",
+          "de",
+          "Chartres",
+          "benist",
+          "les",
+          "chevaliers"
+        ],
+        "pos_tags": [
+          "DET",
+          "PRON",
+          "ADP",
+          "PROPN",
+          "VERB",
+          "DET",
+          "NOUN"
+        ],
+        "lemmas": [
+          "le",
+          "evesque",
+          "de",
+          "Chartres",
+          "benist",
+          "le",
+          "chevalier"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Chartres benist les chevaliers",
+          "type": "MISC",
+          "start": 13,
+          "end": 43
+        }
+      ],
+      "topic": 1
+    },
+    {
+      "line_id": "synth_0008",
+      "text_original": "En la ville de Rouen fu tenue une assemblee",
+      "text_clean": "En la ville de Rouen fu tenue une assemblee",
+      "text_normalized": "En la ville de Rouen fu tenue une assemblee",
+      "confidence": 0.5795029233461273,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_2",
+      "linguistic_annotations": {
+        "tokens": [
+          "En",
+          "la",
+          "ville",
+          "de",
+          "Rouen",
+          "fu",
+          "tenue",
+          "une",
+          "assemblee"
+        ],
+        "pos_tags": [
+          "ADP",
+          "DET",
+          "NOUN",
+          "ADP",
+          "PROPN",
+          "PRON",
+          "VERB",
+          "DET",
+          "VERB"
+        ],
+        "lemmas": [
+          "en",
+          "le",
+          "ville",
+          "de",
+          "Rouen",
+          "fu",
+          "tenir",
+          "un",
+          "assemblee"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Rouen",
+          "type": "LOC",
+          "start": 15,
+          "end": 20
+        }
+      ],
+      "topic": 0
+    },
+    {
+      "line_id": "synth_0009",
+      "text_original": "Le duc d'Aquitaine avec grant compagnie de gens",
+      "text_clean": "Le duc d'Aquitaine avec grant compagnie de gens",
+      "text_normalized": "Le duc d'Aquitaine avec grant compagnie de gens",
+      "confidence": 0.6548475609988483,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_0",
+      "linguistic_annotations": {
+        "tokens": [
+          "Le",
+          "duc",
+          "d'",
+          "Aquitaine",
+          "avec",
+          "grant",
+          "compagnie",
+          "de",
+          "gens"
+        ],
+        "pos_tags": [
+          "DET",
+          "NOUN",
+          "ADP",
+          "PROPN",
+          "ADP",
+          "AUX",
+          "NOUN",
+          "ADP",
+          "NOUN"
+        ],
+        "lemmas": [
+          "le",
+          "duc",
+          "de",
+          "Aquitaine",
+          "avec",
+          "grant",
+          "compagnie",
+          "de",
+          "gens"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "duc d'Aquitaine",
+          "type": "PER",
+          "start": 3,
+          "end": 18
+        }
+      ],
+      "topic": 2
+    },
+    {
+      "line_id": "synth_0010",
+      "text_original": "La contesse de Champaigne fu tresdolente",
+      "text_clean": "La contesse de Champaigne fu tresdolente",
+      "text_normalized": "La contesse de Champaigne fu tresdolente",
+      "confidence": 0.7609932078862038,
+      "needs_review": true,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_1",
+      "linguistic_annotations": {
+        "tokens": [
+          "La",
+          "contesse",
+          "de",
+          "Champaigne",
+          "fu",
+          "tresdolente"
+        ],
+        "pos_tags": [
+          "DET",
+          "NOUN",
+          "ADP",
+          "PROPN",
+          "AUX",
+          "NOUN"
+        ],
+        "lemmas": [
+          "le",
+          "contesse",
+          "de",
+          "Champaigne",
+          "fu",
+          "tresdolente"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Champaigne fu tresdolente",
+          "type": "PER",
+          "start": 15,
+          "end": 40
+        }
+      ],
+      "topic": -1
+    },
+    {
+      "line_id": "synth_0011",
+      "text_original": "Au temps du roy Philippe le Bel de France",
+      "text_clean": "Au temps du roy Philippe le Bel de France",
+      "text_normalized": "Au temps du roy Philippe le Bel de France",
+      "confidence": 0.5723653426357788,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_2",
+      "linguistic_annotations": {
+        "tokens": [
+          "Au",
+          "temps",
+          "du",
+          "roy",
+          "Philippe",
+          "le",
+          "Bel",
+          "de",
+          "France"
+        ],
+        "pos_tags": [
+          "ADP",
+          "NOUN",
+          "ADP",
+          "PROPN",
+          "PROPN",
+          "DET",
+          "PROPN",
+          "ADP",
+          "PROPN"
+        ],
+        "lemmas": [
+          "au",
+          "temps",
+          "de",
+          "roy",
+          "Philippe",
+          "le",
+          "Bel",
+          "de",
+          "France"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Philippe le Bel de France",
+          "type": "PER",
+          "start": 16,
+          "end": 41
+        }
+      ],
+      "topic": 3
+    },
+    {
+      "line_id": "synth_0012",
+      "text_original": "En Bourgogne et en Flandres furent grans troubles",
+      "text_clean": "En Bourgogne et en Flandres furent grans troubles",
+      "text_normalized": "En Bourgogne et en Flandres furent grans troubles",
+      "confidence": 0.6690812906880512,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_0",
+      "linguistic_annotations": {
+        "tokens": [
+          "En",
+          "Bourgogne",
+          "et",
+          "en",
+          "Flandres",
+          "furent",
+          "grans",
+          "troubles"
+        ],
+        "pos_tags": [
+          "ADP",
+          "PROPN",
+          "CCONJ",
+          "ADP",
+          "PROPN",
+          "AUX",
+          "PROPN",
+          "NOUN"
+        ],
+        "lemmas": [
+          "en",
+          "Bourgogne",
+          "et",
+          "en",
+          "Flandres",
+          "être",
+          "grans",
+          "trouble"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Bourgogne",
+          "type": "LOC",
+          "start": 3,
+          "end": 12
+        },
+        {
+          "text": "Flandres",
+          "type": "LOC",
+          "start": 19,
+          "end": 27
+        }
+      ],
+      "topic": 1
+    },
+    {
+      "line_id": "synth_0013",
+      "text_original": "Le sire de Coucy tint conseil avec ses gens",
+      "text_clean": "Le sire de Coucy tint conseil avec ses gens",
+      "text_normalized": "Le sire de Coucy tint conseil avec ses gens",
+      "confidence": 0.5178075314734323,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_1",
+      "linguistic_annotations": {
+        "tokens": [
+          "Le",
+          "sire",
+          "de",
+          "Coucy",
+          "tint",
+          "conseil",
+          "avec",
+          "ses",
+          "gens"
+        ],
+        "pos_tags": [
+          "DET",
+          "NOUN",
+          "ADP",
+          "PROPN",
+          "VERB",
+          "NOUN",
+          "ADP",
+          "DET",
+          "NOUN"
+        ],
+        "lemmas": [
+          "le",
+          "sire",
+          "de",
+          "Coucy",
+          "tenir",
+          "conseil",
+          "avec",
+          "son",
+          "gens"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "sire de Coucy",
+          "type": "PER",
+          "start": 3,
+          "end": 16
+        }
+      ],
+      "topic": -1
+    },
+    {
+      "line_id": "synth_0014",
+      "text_original": "En l'abbaie de Saint Denis fu enterre le roy",
+      "text_clean": "En l'abbaie de Saint Denis fu enterre le roy",
+      "text_normalized": "En l'abbaie de Saint Denis fu enterre le roy",
+      "confidence": 0.7495245956286051,
+      "needs_review": true,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_2",
+      "linguistic_annotations": {
+        "tokens": [
+          "En",
+          "l'",
+          "abbaie",
+          "de",
+          "Saint",
+          "Denis",
+          "fu",
+          "enterre",
+          "le",
+          "roy"
+        ],
+        "pos_tags": [
+          "ADP",
+          "DET",
+          "NOUN",
+          "ADP",
+          "NOUN",
+          "PROPN",
+          "PRON",
+          "VERB",
+          "DET",
+          "PROPN"
+        ],
+        "lemmas": [
+          "en",
+          "le",
+          "abbaie",
+          "de",
+          "saint",
+          "Denis",
+          "fu",
+          "enterrer",
+          "le",
+          "roy"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Saint Denis fu",
+          "type": "PER",
+          "start": 15,
+          "end": 29
+        }
+      ],
+      "topic": 2
+    },
+    {
+      "line_id": "synth_0015",
+      "text_original": "Les Anglois envahirent la terre de Guyenne",
+      "text_clean": "Les Anglois envahirent la terre de Guyenne",
+      "text_normalized": "Les Anglois envahirent la terre de Guyenne",
+      "confidence": 0.7584514626218486,
+      "needs_review": true,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_0",
+      "linguistic_annotations": {
+        "tokens": [
+          "Les",
+          "Anglois",
+          "envahirent",
+          "la",
+          "terre",
+          "de",
+          "Guyenne"
+        ],
+        "pos_tags": [
+          "DET",
+          "PROPN",
+          "VERB",
+          "DET",
+          "NOUN",
+          "ADP",
+          "PROPN"
+        ],
+        "lemmas": [
+          "le",
+          "Anglois",
+          "envahir",
+          "le",
+          "terre",
+          "de",
+          "Guyenne"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Guyenne",
+          "type": "LOC",
+          "start": 35,
+          "end": 42
+        }
+      ],
+      "topic": 1
+    },
+    {
+      "line_id": "synth_0016",
+      "text_original": "En la ville de Bordeaux fu grant joye",
+      "text_clean": "En la ville de Bordeaux fu grant joye",
+      "text_normalized": "En la ville de Bordeaux fu grant joye",
+      "confidence": 0.4383804398613149,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_1",
+      "linguistic_annotations": {
+        "tokens": [
+          "En",
+          "la",
+          "ville",
+          "de",
+          "Bordeaux",
+          "fu",
+          "grant",
+          "joye"
+        ],
+        "pos_tags": [
+          "ADP",
+          "DET",
+          "NOUN",
+          "ADP",
+          "PROPN",
+          "AUX",
+          "VERB",
+          "PROPN"
+        ],
+        "lemmas": [
+          "en",
+          "le",
+          "ville",
+          "de",
+          "Bordeaux",
+          "fu",
+          "grer",
+          "joye"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Bordeaux",
+          "type": "LOC",
+          "start": 15,
+          "end": 23
+        }
+      ],
+      "topic": 0
+    },
+    {
+      "line_id": "synth_0017",
+      "text_original": "Le connestable de France mena l'armee",
+      "text_clean": "Le connestable de France mena l'armee",
+      "text_normalized": "Le connestable de France mena l'armee",
+      "confidence": 0.96972289951399,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_2",
+      "linguistic_annotations": {
+        "tokens": [
+          "Le",
+          "connestable",
+          "de",
+          "France",
+          "mena",
+          "l'",
+          "armee"
+        ],
+        "pos_tags": [
+          "DET",
+          "NOUN",
+          "ADP",
+          "PROPN",
+          "VERB",
+          "DET",
+          "PROPN"
+        ],
+        "lemmas": [
+          "le",
+          "connestable",
+          "de",
+          "France",
+          "mener",
+          "le",
+          "armee"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "de France",
+          "type": "LOC",
+          "start": 15,
+          "end": 24
+        }
+      ],
+      "topic": 0
+    },
+    {
+      "line_id": "synth_0018",
+      "text_original": "En Poitou et en Berry furent moult batailles",
+      "text_clean": "En Poitou et en Berry furent moult batailles",
+      "text_normalized": "En Poitou et en Berry furent moult batailles",
+      "confidence": 0.5797221238122887,
+      "needs_review": true,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_0",
+      "linguistic_annotations": {
+        "tokens": [
+          "En",
+          "Poitou",
+          "et",
+          "en",
+          "Berry",
+          "furent",
+          "moult",
+          "batailles"
+        ],
+        "pos_tags": [
+          "ADP",
+          "PROPN",
+          "CCONJ",
+          "ADP",
+          "PROPN",
+          "AUX",
+          "DET",
+          "NOUN"
+        ],
+        "lemmas": [
+          "en",
+          "Poitou",
+          "et",
+          "en",
+          "Berry",
+          "être",
+          "moult",
+          "bataille"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Poitou",
+          "type": "LOC",
+          "start": 3,
+          "end": 9
+        },
+        {
+          "text": "Berry",
+          "type": "LOC",
+          "start": 16,
+          "end": 21
+        }
+      ],
+      "topic": 1
+    },
+    {
+      "line_id": "synth_0019",
+      "text_original": "La royne Blanche de Castille regna sagement",
+      "text_clean": "La royne Blanche de Castille regna sagement",
+      "text_normalized": "La royne Blanche de Castille regna sagement",
+      "confidence": 0.8036974856421726,
+      "needs_review": false,
+      "language": "fro",
+      "century": 14,
+      "manuscript_id": "ms_1",
+      "linguistic_annotations": {
+        "tokens": [
+          "La",
+          "royne",
+          "Blanche",
+          "de",
+          "Castille",
+          "regna",
+          "sagement"
+        ],
+        "pos_tags": [
+          "DET",
+          "NOUN",
+          "PROPN",
+          "ADP",
+          "PROPN",
+          "VERB",
+          "ADJ"
+        ],
+        "lemmas": [
+          "le",
+          "royne",
+          "Blanche",
+          "de",
+          "Castille",
+          "regner",
+          "sagement"
+        ]
+      },
+      "named_entities": [
+        {
+          "text": "Blanche de Castille regna",
+          "type": "PER",
+          "start": 9,
+          "end": 34
+        }
+      ],
+      "topic": -1
+    }
+  ],
+  "aggregate_stats": {
+    "pos_distribution": {
+      "PROPN": 35,
+      "ADP": 34,
+      "DET": 29,
+      "NOUN": 29,
+      "VERB": 14,
+      "ADJ": 7,
+      "AUX": 6,
+      "NUM": 4,
+      "CCONJ": 4,
+      "PRON": 4
+    },
+    "entity_type_distribution": {
+      "PER": 9,
+      "LOC": 11,
+      "MISC": 1
+    },
+    "top_entities": [
+      {
+        "text": "Paris",
+        "type": "LOC",
+        "count": 2
+      },
+      {
+        "text": "Charles de France",
+        "type": "PER",
+        "count": 1
+      },
+      {
+        "text": "Messire Jean seigneur de Bourgogne",
+        "type": "PER",
+        "count": 1
+      },
+      {
+        "text": "Reims",
+        "type": "LOC",
+        "count": 1
+      },
+      {
+        "text": "Guillaume duc de Normandie",
+        "type": "PER",
+        "count": 1
+      },
+      {
+        "text": "Chartres benist les chevaliers",
+        "type": "MISC",
+        "count": 1
+      },
+      {
+        "text": "Rouen",
+        "type": "LOC",
+        "count": 1
+      },
+      {
+        "text": "duc d'Aquitaine",
+        "type": "PER",
+        "count": 1
+      },
+      {
+        "text": "Champaigne fu tresdolente",
+        "type": "PER",
+        "count": 1
+      },
+      {
+        "text": "Philippe le Bel de France",
+        "type": "PER",
+        "count": 1
+      },
+      {
+        "text": "Bourgogne",
+        "type": "LOC",
+        "count": 1
+      },
+      {
+        "text": "Flandres",
+        "type": "LOC",
+        "count": 1
+      },
+      {
+        "text": "sire de Coucy",
+        "type": "PER",
+        "count": 1
+      },
+      {
+        "text": "Saint Denis fu",
+        "type": "PER",
+        "count": 1
+      },
+      {
+        "text": "Guyenne",
+        "type": "LOC",
+        "count": 1
+      },
+      {
+        "text": "Bordeaux",
+        "type": "LOC",
+        "count": 1
+      },
+      {
+        "text": "de France",
+        "type": "LOC",
+        "count": 1
+      },
+      {
+        "text": "Poitou",
+        "type": "LOC",
+        "count": 1
+      },
+      {
+        "text": "Berry",
+        "type": "LOC",
+        "count": 1
+      },
+      {
+        "text": "Blanche de Castille regna",
+        "type": "PER",
+        "count": 1
+      }
+    ]
+  },
+  "knowledge_graph": {
+    "n_nodes": 20,
+    "n_edges": 3,
+    "reference_file": "knowledge_graph.json"
+  }
+}

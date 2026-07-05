@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-07-05T21:04:11.080327",
+  "n_nodes": 20,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": "Charles de France",
+      "label": "PER",
+      "count": 1
+    },
+    {
+      "id": "Paris",
+      "label": "LOC",
+      "count": 2
+    },
+    {
+      "id": "Messire Jean seigneur de Bourgogne",
+      "label": "PER",
+      "count": 1
+    },
+    {
+      "id": "Reims",
+      "label": "LOC",
+      "count": 1
+    },
+    {
+      "id": "Guillaume duc de Normandie",
+      "label": "PER",
+      "count": 1
+    },
+    {
+      "id": "Chartres benist les chevaliers",
+      "label": "MISC",
+      "count": 1
+    },
+    {
+      "id": "Rouen",
+      "label": "LOC",
+      "count": 1
+    },
+    {
+      "id": "duc d'Aquitaine",
+      "label": "PER",
+      "count": 1
+    },
+    {
+      "id": "Champaigne fu tresdolente",
+      "label": "PER",
+      "count": 1
+    },
+    {
+      "id": "Philippe le Bel de France",
+      "label": "PER",
+      "count": 1
+    },
+    {
+      "id": "Bourgogne",
+      "label": "LOC",
+      "count": 1
+    },
+    {
+      "id": "Flandres",
+      "label": "LOC",
+      "count": 1
+    },
+    {
+      "id": "sire de Coucy",
+      "label": "PER",
+      "count": 1
+    },
+    {
+      "id": "Saint Denis fu",
+      "label": "PER",
+      "count": 1
+    },
+    {
+      "id": "Guyenne",
+      "label": "LOC",
+      "count": 1
+    },
+    {
+      "id": "Bordeaux",
+      "label": "LOC",
+      "count": 1
+    },
+    {
+      "id": "de France",
+      "label": "LOC",
+      "count": 1
+    },
+    {
+      "id": "Poitou",
+      "label": "LOC",
+      "count": 1
+    },
+    {
+      "id": "Berry",
+      "label": "LOC",
+      "count": 1
+    },
+    {
+      "id": "Blanche de Castille regna",
+      "label": "PER",
+      "count": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "Charles de France",
+      "target": "Paris",
+      "weight": 1
+    },
+    {
+      "source": "Bourgogne",
+      "target": "Flandres",
+      "weight": 1
+    },
+    {
+      "source": "Poitou",
+      "target": "Berry",
+      "weight": 1
+    }
+  ]
+}
