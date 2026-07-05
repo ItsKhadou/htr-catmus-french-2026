@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-05T21:04:27.924516",
+  "generated_at": "2026-07-05T21:55:34.765997",
   "source_volet1": {
     "test_set_sha256": "synthetic_example",
     "model": {
@@ -16,7 +16,7 @@
   "volet2_pipeline": {
     "pos_ner_model": "spacy/fr_core_news_lg",
     "topic_model": "BERTopic + paraphrase-multilingual-MiniLM-L12-v2",
-    "n_topics_found": 4,
+    "n_topics_found": 3,
     "n_entities_total": 21,
     "n_unique_entities": 20
   },
@@ -193,7 +193,7 @@
           "end": 34
         }
       ],
-      "topic": 3
+      "topic": 0
     },
     {
       "line_id": "synth_0003",
@@ -553,7 +553,7 @@
           "end": 18
         }
       ],
-      "topic": 2
+      "topic": 1
     },
     {
       "line_id": "synth_0010",
@@ -599,7 +599,7 @@
           "end": 40
         }
       ],
-      "topic": -1
+      "topic": 0
     },
     {
       "line_id": "synth_0011",
@@ -654,7 +654,7 @@
           "end": 41
         }
       ],
-      "topic": 3
+      "topic": 0
     },
     {
       "line_id": "synth_0012",
@@ -767,7 +767,7 @@
           "end": 16
         }
       ],
-      "topic": -1
+      "topic": 1
     },
     {
       "line_id": "synth_0014",
@@ -975,7 +975,7 @@
           "end": 24
         }
       ],
-      "topic": 0
+      "topic": -1
     },
     {
       "line_id": "synth_0018",
