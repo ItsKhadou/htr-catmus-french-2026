@@ -1,0 +1,23 @@
+{
+  "run_id": "final_evaluation_20260705_214948",
+  "timestamp": "2026-07-05T21:49:48.837615",
+  "phase": "final_evaluation",
+  "split_evaluated": "test",
+  "test_set_sha256": "209328c0af25635caec7270ee5f07b8b4d0b7d3e39e506eb84a8ff83212de317",
+  "test_size": 2265,
+  "cer_test": 0.23291992622273103,
+  "wer_test": 0.5623784204383349,
+  "bootstrap_ci_95": {
+    "cer_mean": 0.23270725897369265,
+    "ci_lower_95": 0.22142359887548682,
+    "ci_upper_95": 0.24474864364092752,
+    "n_iterations": 1000
+  },
+  "cer_baseline_val": 0.6793486093096988,
+  "improvement_points": 44.64286830869677,
+  "duration_seconds": 499.6656322479248,
+  "device": "cuda",
+  "seed": 42,
+  "reaches_validation_threshold": false,
+  "reaches_excellence_threshold": false
+}

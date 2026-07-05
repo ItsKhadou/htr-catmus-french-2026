@@ -1,0 +1,17 @@
+{
+  "test_set_sha256": "209328c0af25635caec7270ee5f07b8b4d0b7d3e39e506eb84a8ff83212de317",
+  "test_size": 2265,
+  "val_size": 2265,
+  "train_size": 40520,
+  "sealed_at": "2026-07-05T20:32:52.005910",
+  "sub_corpus": {
+    "languages": [
+      "French"
+    ],
+    "centuries": [
+      13,
+      14,
+      15
+    ]
+  }
+}
