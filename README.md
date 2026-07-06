@@ -5,10 +5,10 @@
 **Contexte** : Projet MD5 — Module « Vision par ordinateur », Master Data/IA, HETIC, promotion 2026.
 
 **Équipe** :
-- [Nom 1] — Responsable technique
-- [Nom 2] — Responsable documentation
-- [Nom 3] — Responsable expérimentation
-- Khadidja [...] — Responsable données
+Khadidja BERREKSI
+BENI NZONGO
+Nathalie KOYLE
+Hamsatou MOUSSA RABIOU KALLA
 
 ## Statut du projet
 
